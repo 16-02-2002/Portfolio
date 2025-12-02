@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+
+    <!--CSS Style-->
+    <style>
+        body
+        {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 30px;
+            background-color: beige;
+        }
+        .form-box
+        {
+            background: #f8f8f8;
+            width: 350px;
+            padding: 20px;
+            border-radius: 10px;
+            border-left: 5px solid #4CAF50;
+        }
+        .form-box input,
+        .form-box textarea
+        {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background: #4CAF50;
+            color: white;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        .form-box button:hover
+        {
+            background: #45a049;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="form-box">
+    <h2>Contact Me</h2>
+
+    <!--simple mailto form-->
+    <form action="mailto:mail2saideepthi@gmail.com" method="post" enctype="text/plain">
+        <label>Your Name</label>
+        <input type="text" name="Name" required>
+        <label>Your Email</label>
+        <input type="email" name="Email" required>
+        <label>Your Message</label>
+        <textarea name="Message" rows="5" required></textarea>
+
+        <button type="submit">Send Message</button>
+    </form>
+    </div>
+</body>
+</html>
