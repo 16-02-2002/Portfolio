@@ -1,11 +1,9 @@
 body{
     padding: 0px;
     margin: 0px;
-<<<<<<< HEAD
+
     background-color: rgb(179, 169, 171);
-=======
-    background-color: blueviolet;
->>>>>>> 5b8831d15a112f3fcee411fd01babfdaf0fc73f5
+    
     color: black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
