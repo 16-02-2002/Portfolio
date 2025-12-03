@@ -1,0 +1,113 @@
+body
+{
+    padding: 0px;
+    margin: 0px;
+    padding-left: 30px;
+    background: #f2f2f2;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.resume
+{
+    width: 100%;
+    max-width: 850px;
+    margin: 20px auto;
+    background: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    
+
+}
+
+.header
+{
+   padding: 15px;
+}
+.header p
+{
+ margin-top: -10px;
+ padding-left: 5px;
+ color: blue;
+}
+body .contact
+{
+  margin-top: -30px;
+  padding-left: 20px;
+   display: flex;
+   gap: 40px;
+   margin-bottom: 60px;
+   color: black;
+}
+.content .obj
+{
+    font-size: small;
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+body .content
+{
+margin-left: 12px;
+margin-bottom: 10px;
+}
+.content hr{
+    margin-top: -10px;
+     height: 2px;
+     background-color: blue;
+     border: none;
+     
+     
+}
+.edu .college
+{
+   margin-top: -20px;
+   color: blue;
+   font-weight: 400;
+   font-size: smaller;
+}
+.edu .year
+{
+    margin-top: -15px;
+    font-size: small;
+}
+.technical h6
+{
+    font-size: small;
+    font-weight: 400;
+}
+.technical li
+{
+    font-size: small;
+    
+}
+.technical .tools
+{
+    font-size: small;
+    font-weight: 600;
+}
+.intern .certi
+{
+    
+   font-size: small;
+   margin-top: -15px; 
+    
+}
+.contact .icons
+{
+    display: flexbox;
+    margin-bottom: -5px;
+    color: blue;
+}
+.intern .certifi
+{
+    margin-top: -20px;
+}
+.content .project
+{
+    font-size: small;
+}
+.content .hobbies
+{
+    font-size: small;
+}
