@@ -34,17 +34,42 @@ body .contact
   margin-top: -30px;
   padding-left: 20px;
    display: flex;
-   gap: 40px;
+   gap: 20px;
    margin-bottom: 60px;
    color: black;
+   align-items: center;
+   flex-wrap: nowrap;
+}
+.contact-item
+{
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+    font-size: 14px;
 }
 .content .obj
 {
     font-size: small;
 }
-.contact a{
+body .contact-item a{
     text-decoration: none;
     color: black;
+   
+}
+@media print
+{
+    .contact
+    {
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 10px;
+       
+    }
+}
+.contact-item
+{
+    font-size: 11px;
 }
 body .content
 {

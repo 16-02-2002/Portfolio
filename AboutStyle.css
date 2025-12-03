@@ -10,3 +10,15 @@ body{
 .text{
     padding-left: 50px;
 }
+@page 
+{
+    size: A4 portrait;
+    margin: 10mm;
+}
+@media print
+{
+    body
+    {
+        width: 100%;
+    }
+}
